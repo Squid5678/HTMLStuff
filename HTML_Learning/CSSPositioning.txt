@@ -1,0 +1,17 @@
+Static Positioning:
+- This is the default positioning scheme within HTML. 
+- HTML just makes one item go after the other.
+
+Relative Positioning:
+- This is the position relative to the default position.
+- You can specify a push from all 4 directions!
+
+Absolute Positioning:
+- Position everything relative to the nearest positioned ancestor! (think ancestor from combining selectors.)
+- If no position property is set, it does everything relative to the top left corner of the webpage.
+- Z-index: determines which elements goes on top of the other (in the z-direction). This is how you can 
+get a layered effect with things. Things with a higher z-index will happen on top.
+
+Fixed Positioning:
+- Position relative to the top-left corner of the browser window. It will stay and never move. It does not move 
+with the webpage (so even if you scroll down, it will still remain in place.)

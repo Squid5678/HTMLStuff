@@ -1,0 +1,14 @@
+CSS has inheritance-like qualities. These are the orders in which styles are assigned. 
+- Position: in your CSS file, when you specify a style (either through ID, attribute, class name, etc.),
+the one that is the furthest down in the CSS filue will be selected. 
+- Specificity: you can be very general with CSS, or you can get very specific with an ID. 
+In general, the most specific way of controlling an atrribute will be selected. 
+- Type: Inline is the most specific, so it will override everything. This is then followed by 
+internal CSS, then external CSS. 
+- Importance: there is a keyword called !important that you can use that will override everything. 
+Add a space after your style declaration, then add the keyword.
+
+The above is a hierarchy. So the order of importance goes from 4 - 1.
+
+NOTE: you can apply multiple classes to one element AS LONG AS you apply a SPACE between 
+the names of the classes. 

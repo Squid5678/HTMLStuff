@@ -1,0 +1,15 @@
+There are many ways you can combine CSS Selectors:
+1. Group: selector, selector {}. Separate the selectors with a comma. 
+
+2. selector > selector {}. The first selector is the parent, the second selector is the child. 
+It only applies to elements that are ONLY one line down. Must be a DIRECT child.
+
+3. selector select {} --> this is the descendent selector. You can apply it to any
+descendant.
+
+4. selectorselector {} --> this is chaining selectors. You basically have 2 selectors
+so you can be specific with the elements that you are trying to change. 
+- NOTE: if you are using the element selector, you will need to use those first 
+BEFORE you use anything like a class or ID specifier.
+
+You can combine these different combinations too!
